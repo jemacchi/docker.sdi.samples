@@ -1,6 +1,6 @@
 <dataStore>
   <id>DataStoreInfoImpl--2e782093:17112b62ada:-7ffd</id>
-  <name>geotekedb</name>
+  <name>geoteknedb</name>
   <type>PostGIS</type>
   <enabled>true</enabled>
   <workspace>
