@@ -1,0 +1,51 @@
+version: '3'
+services:
+  
+  geoserver:
+    image: 'jemacchi/geoserver:2.16.2'
+    hostname: geoserver
+    env_file:
+      - ./geoserver.env
+    depends_on:
+      - postgis
+    networks:
+      - gis
+    volumes:
+      - './data/geoserver/data_dir/:/var/local/geoserver'
+      - './jetty/bin/startup.sh:/opt/geoserver/bin/startup.sh'
+    restart: on-failure
+    healthcheck:
+      test: 'curl --fail -s http://localhost:8080/ || exit 1'
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+
+  postgis:
+    image: 'kartoza/postgis:9.6-2.4'
+    hostname: postgis
+    env_file:
+      - ./postgis.env
+    ports:
+      - '5432:5432'
+    networks:
+      - gis
+    restart: on-failure
+    healthcheck:
+      test: exit 0
+  
+  nginx:
+    image: 'nginx:1.17.10-alpine'
+    container_name: nginx
+    depends_on:
+      - geoserver
+    ports:
+      - '80:80'
+    networks:
+      - gis
+    volumes:
+      - './nginx/conf.d/:/etc/nginx/conf.d'
+      - './nginx/html/:/usr/share/nginx/html' 
+      
+networks:
+  gis:
+    driver: bridge
