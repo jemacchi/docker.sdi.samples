@@ -1,0 +1,56 @@
+version: '3'
+services:
+  
+  geoserver:
+    image: 'jemacchi/geoserver:2.16.2'
+    env_file:
+      - ./geoserver.env
+    depends_on:
+      - postgis
+    networks:
+      - gis
+    volumes:
+      - './data/geoserver/data_dir/:/var/local/geoserver'
+      - './jetty/bin/startup.sh:/opt/geoserver/bin/startup.sh'
+    restart: on-failure
+    healthcheck:
+      test: 'curl --fail -s http://localhost:8080/ || exit 1'
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    environment:
+      - COOKIE=JSESSIONID prefix
+
+  postgis:
+    image: 'kartoza/postgis:9.6-2.4'
+    hostname: postgis
+    env_file:
+      - ./postgis.env
+    ports:
+      - '5432:5432'
+    networks:
+      - gis
+    restart: on-failure
+    healthcheck:
+      test: exit 0
+  
+  haproxy:
+    image: dockercloud/haproxy
+    container_name: haproxy
+    depends_on:
+      - geoserver
+    links:
+      - geoserver
+    ports:
+      - '80:80'
+      - '1936:1936'
+    networks:
+      - gis
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    environment:
+      - 'STATS_AUTH="admin:admin"'
+      
+networks:
+  gis:
+    driver: weavemesh

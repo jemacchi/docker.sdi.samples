@@ -1,0 +1,118 @@
+version: '3'
+
+services:
+  
+  nginx-proxy:
+    image: jemacchi/nginx-proxy:1.0
+    restart: always
+    networks:
+      - gis
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - certs:/etc/nginx/certs:ro
+      - vhostd:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+    labels:
+      - com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy
+
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    restart: always
+    networks:
+      - gis
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - certs:/etc/nginx/certs:rw
+      - vhostd:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+
+  geoserver-node:
+    image: 'jemacchi/geoserver:2.16.2'
+    env_file:
+      - ./geoserver.env
+    depends_on:
+      - postgis
+    expose: 
+      - '8080'
+    networks:
+      - gis
+    volumes:
+      - './data/geoserver/data_dir/:/var/local/geoserver'
+      - './jetty/bin/startup.sh:/opt/geoserver/bin/startup.sh'
+    restart: on-failure
+    healthcheck:
+      test: 'curl --fail -s http://localhost:8080/ || exit 1'
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    environment:
+      - VIRTUAL_HOST=geocluster.geotekne.local
+      - LETSENCRYPT_HOST=geocluster.geotekne.local
+      - LETSENCRYPT_EMAIL=jose.macchi@gmail.com
+
+  haproxy:
+    image: dockercloud/haproxy
+    container_name: haproxy
+    depends_on:
+      - geoserver-admin
+    links:
+      - geoserver-admin
+    expose:
+      - '80'
+      - '1936'
+    networks:
+      - gis
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    environment:
+      - 'STATS_AUTH="admin:admin"'
+      - VIRTUAL_HOST=geocluster-admin.geotekne.local
+      - LETSENCRYPT_HOST=geocluster-admin.geotekne.local
+      - LETSENCRYPT_EMAIL=jose.macchi@gmail.com
+
+  geoserver-admin:
+    image: 'jemacchi/geoserver:2.16.2'
+    env_file:
+      - ./geoserver.env
+    depends_on:
+      - postgis
+    networks:
+      - gis
+    volumes:
+      - './data/geoserver/data_dir/:/var/local/geoserver'
+      - './jetty/bin/startup.sh:/opt/geoserver/bin/startup.sh'
+    restart: on-failure
+    healthcheck:
+      test: 'curl --fail -s http://localhost:8080/ || exit 1'
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    environment:
+      - COOKIE=JSESSIONID prefix
+
+  postgis:
+    image: 'kartoza/postgis:9.6-2.4'
+    hostname: postgis
+    env_file:
+      - ./postgis.env
+    ports:
+      - '5432:5432'
+    networks:
+      - gis
+    restart: on-failure
+    healthcheck:
+      test: exit 0
+
+volumes: 
+  certs:
+  html:
+  vhostd:
+
+networks:
+  gis:
+    driver: weavemesh
