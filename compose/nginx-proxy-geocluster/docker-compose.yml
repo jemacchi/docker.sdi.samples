@@ -43,7 +43,7 @@ services:
       - gis
     volumes:
       - './data/geoserver/data_dir/:/var/local/geoserver'
-      - './jetty/bin/startup.sh:/opt/geoserver/bin/startup.sh'
+      - './jetty/bin/startup-node.sh:/opt/geoserver/bin/startup.sh'
     restart: on-failure
     healthcheck:
       test: 'curl --fail -s http://localhost:8080/ || exit 1'
@@ -85,7 +85,7 @@ services:
       - gis
     volumes:
       - './data/geoserver/data_dir/:/var/local/geoserver'
-      - './jetty/bin/startup.sh:/opt/geoserver/bin/startup.sh'
+      - './jetty/bin/startup-admin.sh:/opt/geoserver/bin/startup.sh'
     restart: on-failure
     healthcheck:
       test: 'curl --fail -s http://localhost:8080/ || exit 1'
