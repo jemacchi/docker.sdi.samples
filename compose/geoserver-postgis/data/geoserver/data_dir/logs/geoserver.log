@@ -1,0 +1,951 @@
+2020-05-09 02:51:07,795 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2020-05-09 02:51:07,837 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2020-05-09 02:51:08,068 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2020-05-09 02:51:08,259 INFO [org.geoserver] - Loading catalog...
+2020-05-09 02:51:08,312 INFO [org.geoserver] - Loading catalog...
+2020-05-09 02:51:08,530 INFO [org.geoserver] - Loading catalog...
+2020-05-09 02:51:08,568 INFO [org.geoserver] - Loaded style 'population'
+2020-05-09 02:51:08,569 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2020-05-09 02:51:08,579 INFO [org.geoserver] - Loaded style 'green'
+2020-05-09 02:51:08,583 INFO [org.geoserver] - Loaded style 'line'
+2020-05-09 02:51:08,597 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2020-05-09 02:51:08,598 INFO [org.geoserver] - Loaded style 'polygon'
+2020-05-09 02:51:08,599 INFO [org.geoserver] - Loaded style 'dem'
+2020-05-09 02:51:08,600 INFO [org.geoserver] - Loaded style 'restricted'
+2020-05-09 02:51:08,608 INFO [org.geoserver] - Loaded style 'poi'
+2020-05-09 02:51:08,609 INFO [org.geoserver] - Loaded style 'pophatch'
+2020-05-09 02:51:08,610 INFO [org.geoserver] - Loaded style 'grass'
+2020-05-09 02:51:08,613 INFO [org.geoserver] - Loaded style 'simple_roads'
+2020-05-09 02:51:08,614 INFO [org.geoserver] - Loaded style 'simple_streams'
+2020-05-09 02:51:08,616 INFO [org.geoserver] - Loaded style 'raster'
+2020-05-09 02:51:08,617 INFO [org.geoserver] - Loaded style 'capitals'
+2020-05-09 02:51:08,636 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2020-05-09 02:51:08,653 INFO [org.geoserver] - Loaded style 'burg'
+2020-05-09 02:51:08,672 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2020-05-09 02:51:08,677 INFO [org.geoserver] - Loaded style 'point'
+2020-05-09 02:51:08,701 INFO [org.geoserver] - Loaded style 'generic'
+2020-05-09 02:51:08,702 INFO [org.geoserver] - Loaded style 'rain'
+2020-05-09 02:51:08,710 INFO [org.geoserver] - Loaded default workspace cite
+2020-05-09 02:51:08,736 INFO [org.geoserver] - Loaded style 'population'
+2020-05-09 02:51:08,763 INFO [org.geoserver] - Loaded style 'green'
+2020-05-09 02:51:08,771 INFO [org.geoserver] - Loaded style 'polygon'
+2020-05-09 02:51:08,782 INFO [org.geoserver] - Loaded style 'dem'
+2020-05-09 02:51:08,788 INFO [org.geoserver] - Loaded style 'restricted'
+2020-05-09 02:51:08,789 INFO [org.geoserver] - Loaded style 'poi'
+2020-05-09 02:51:08,790 INFO [org.geoserver] - Loaded style 'pophatch'
+2020-05-09 02:51:08,791 INFO [org.geoserver] - Loaded style 'grass'
+2020-05-09 02:51:08,791 INFO [org.geoserver] - Loaded style 'simple_roads'
+2020-05-09 02:51:08,792 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2020-05-09 02:51:08,792 INFO [org.geoserver] - Loaded style 'simple_streams'
+2020-05-09 02:51:08,804 INFO [org.geoserver] - Loaded workspace 'cite'
+2020-05-09 02:51:08,812 INFO [org.geoserver] - Loaded style 'capitals'
+2020-05-09 02:51:08,816 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2020-05-09 02:51:08,823 INFO [org.geoserver] - Loaded style 'raster'
+2020-05-09 02:51:08,836 INFO [org.geoserver] - Loaded style 'rain'
+2020-05-09 02:51:08,837 INFO [org.geoserver] - Loaded style 'burg'
+2020-05-09 02:51:08,840 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2020-05-09 02:51:08,841 INFO [org.geoserver] - Loaded style 'point'
+2020-05-09 02:51:08,849 INFO [org.geoserver] - Loaded workspace 'tiger'
+2020-05-09 02:51:08,856 INFO [org.geoserver] - Loaded style 'generic'
+2020-05-09 02:51:08,857 INFO [org.geoserver] - Loaded style 'line'
+2020-05-09 02:51:08,864 INFO [org.geoserver] - Loaded workspace 'sde'
+2020-05-09 02:51:08,871 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2020-05-09 02:51:08,871 INFO [org.geoserver] - Loaded workspace 'sf'
+2020-05-09 02:51:08,872 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2020-05-09 02:51:08,877 INFO [org.geoserver] - Loaded workspace 'geotekne'
+2020-05-09 02:51:08,878 INFO [org.geoserver] - Loaded default workspace cite
+2020-05-09 02:51:08,891 INFO [org.geoserver] - Loaded workspace 'nurc'
+2020-05-09 02:51:08,902 INFO [org.geoserver] - Loaded workspace 'topp'
+2020-05-09 02:51:08,973 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2020-05-09 02:51:09,031 INFO [org.geoserver] - Loaded style 'population'
+2020-05-09 02:51:09,032 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2020-05-09 02:51:09,032 INFO [org.geoserver] - Loaded workspace 'cite'
+2020-05-09 02:51:09,033 INFO [org.geoserver] - Loaded style 'green'
+2020-05-09 02:51:09,043 INFO [org.geoserver] - Loaded style 'line'
+2020-05-09 02:51:09,044 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2020-05-09 02:51:09,045 INFO [org.geoserver] - Loaded style 'polygon'
+2020-05-09 02:51:09,045 INFO [org.geoserver] - Loaded style 'dem'
+2020-05-09 02:51:09,050 INFO [org.geoserver] - Loaded style 'restricted'
+2020-05-09 02:51:09,051 INFO [org.geoserver] - Loaded style 'poi'
+2020-05-09 02:51:09,052 INFO [org.geoserver] - Loaded style 'pophatch'
+2020-05-09 02:51:09,053 INFO [org.geoserver] - Loaded style 'grass'
+2020-05-09 02:51:09,058 INFO [org.geoserver] - Loaded style 'simple_roads'
+2020-05-09 02:51:09,060 INFO [org.geoserver] - Loaded style 'simple_streams'
+2020-05-09 02:51:09,094 INFO [org.geoserver] - Loaded style 'capitals'
+2020-05-09 02:51:09,095 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2020-05-09 02:51:09,103 INFO [org.geoserver] - Loaded workspace 'tiger'
+2020-05-09 02:51:09,105 INFO [org.geoserver] - Loaded workspace 'sde'
+2020-05-09 02:51:09,118 INFO [org.geoserver] - Loaded workspace 'sf'
+2020-05-09 02:51:09,124 INFO [org.geoserver] - Loaded workspace 'nurc'
+2020-05-09 02:51:09,130 INFO [org.geoserver] - Loaded style 'rain'
+2020-05-09 02:51:09,137 INFO [org.geoserver] - Loaded style 'burg'
+2020-05-09 02:51:09,139 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2020-05-09 02:51:09,145 INFO [org.geoserver] - Loaded style 'point'
+2020-05-09 02:51:09,148 INFO [org.geoserver] - Loaded style 'generic'
+2020-05-09 02:51:09,149 INFO [org.geoserver] - Loaded style 'raster'
+2020-05-09 02:51:09,159 INFO [org.geoserver] - Loaded default workspace cite
+2020-05-09 02:51:09,172 INFO [org.geoserver] - Loaded workspace 'topp'
+2020-05-09 02:51:09,185 INFO [org.geoserver] - Loaded workspace 'geotekne'
+2020-05-09 02:51:09,291 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2020-05-09 02:51:09,335 INFO [org.geoserver] - Loaded workspace 'sde'
+2020-05-09 02:51:09,359 INFO [org.geoserver] - Loaded workspace 'sf'
+2020-05-09 02:51:09,369 INFO [org.geoserver] - Loaded workspace 'nurc'
+2020-05-09 02:51:09,384 INFO [org.geoserver] - Loaded workspace 'tiger'
+2020-05-09 02:51:09,394 INFO [org.geoserver] - Loaded workspace 'cite'
+2020-05-09 02:51:09,415 INFO [org.geoserver] - Loaded workspace 'geotekne'
+2020-05-09 02:51:09,436 INFO [org.geoserver] - Loaded workspace 'topp'
+2020-05-09 02:51:11,829 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2020-05-09 02:51:11,838 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2020-05-09 02:51:11,869 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2020-05-09 02:51:16,503 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2020-05-09 02:51:16,508 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2020-05-09 02:51:16,578 INFO [org.geoserver] - Loaded layer 'poi'
+2020-05-09 02:51:16,599 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2020-05-09 02:51:16,611 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2020-05-09 02:51:16,658 INFO [org.geoserver] - Loaded layer 'poi'
+2020-05-09 02:51:16,674 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2020-05-09 02:51:16,688 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2020-05-09 02:51:16,702 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2020-05-09 02:51:16,710 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2020-05-09 02:51:16,718 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2020-05-09 02:51:16,737 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2020-05-09 02:51:16,737 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2020-05-09 02:51:16,740 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2020-05-09 02:51:16,751 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2020-05-09 02:51:16,761 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2020-05-09 02:51:16,793 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2020-05-09 02:51:16,793 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2020-05-09 02:51:17,023 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2020-05-09 02:51:17,066 INFO [org.geoserver] - Loaded layer 'poi'
+2020-05-09 02:51:17,084 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2020-05-09 02:51:17,092 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2020-05-09 02:51:17,111 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2020-05-09 02:51:17,117 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2020-05-09 02:51:17,126 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2020-05-09 02:51:17,145 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2020-05-09 02:51:17,172 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2020-05-09 02:51:17,905 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2020-05-09 02:51:17,909 INFO [org.geoserver] - Loaded layer 'roads'
+2020-05-09 02:51:17,924 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2020-05-09 02:51:17,933 INFO [org.geoserver] - Loaded layer 'restricted'
+2020-05-09 02:51:17,949 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2020-05-09 02:51:17,951 INFO [org.geoserver] - Loaded layer 'sfdem'
+2020-05-09 02:51:17,962 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2020-05-09 02:51:17,970 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2020-05-09 02:51:17,975 INFO [org.geoserver] - Loaded layer 'roads'
+2020-05-09 02:51:17,983 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2020-05-09 02:51:17,986 INFO [org.geoserver] - Loaded layer 'restricted'
+2020-05-09 02:51:17,992 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2020-05-09 02:51:17,998 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2020-05-09 02:51:18,008 INFO [org.geoserver] - Loaded layer 'archsites'
+2020-05-09 02:51:18,018 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2020-05-09 02:51:18,022 INFO [org.geoserver] - Loaded layer 'bugsites'
+2020-05-09 02:51:18,024 INFO [org.geoserver] - Loaded layer 'archsites'
+2020-05-09 02:51:18,031 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2020-05-09 02:51:18,035 INFO [org.geoserver] - Loaded layer 'streams'
+2020-05-09 02:51:18,042 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2020-05-09 02:51:18,059 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2020-05-09 02:51:18,060 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2020-05-09 02:51:18,079 INFO [org.geoserver] - Loaded layer 'bugsites'
+2020-05-09 02:51:18,107 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2020-05-09 02:51:18,114 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2020-05-09 02:51:18,119 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2020-05-09 02:51:18,133 INFO [org.geoserver] - Loaded layer 'streams'
+2020-05-09 02:51:18,145 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2020-05-09 02:51:18,162 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2020-05-09 02:51:18,175 INFO [org.geoserver] - Loaded layer 'mosaic'
+2020-05-09 02:51:18,182 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2020-05-09 02:51:18,196 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2020-05-09 02:51:18,198 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2020-05-09 02:51:18,204 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2020-05-09 02:51:18,208 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2020-05-09 02:51:18,209 INFO [org.geoserver] - Loaded layer 'sfdem'
+2020-05-09 02:51:18,219 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2020-05-09 02:51:18,220 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2020-05-09 02:51:18,226 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2020-05-09 02:51:18,243 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2020-05-09 02:51:18,251 INFO [org.geoserver] - Loaded layer 'roads'
+2020-05-09 02:51:18,267 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2020-05-09 02:51:18,271 INFO [org.geoserver] - Loaded layer 'restricted'
+2020-05-09 02:51:18,287 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2020-05-09 02:51:18,299 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2020-05-09 02:51:18,302 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2020-05-09 02:51:18,304 INFO [org.geoserver] - Loaded layer 'archsites'
+2020-05-09 02:51:18,306 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2020-05-09 02:51:18,313 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2020-05-09 02:51:18,322 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2020-05-09 02:51:18,324 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2020-05-09 02:51:18,330 INFO [org.geoserver] - Loaded layer 'sfdem'
+2020-05-09 02:51:18,341 INFO [org.geoserver] - Loaded layer 'bugsites'
+2020-05-09 02:51:18,344 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2020-05-09 02:51:18,361 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2020-05-09 02:51:18,368 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2020-05-09 02:51:18,368 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2020-05-09 02:51:18,376 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2020-05-09 02:51:18,377 INFO [org.geoserver] - Loaded layer 'streams'
+2020-05-09 02:51:18,386 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2020-05-09 02:51:18,390 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2020-05-09 02:51:18,402 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2020-05-09 02:51:18,406 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2020-05-09 02:51:18,406 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2020-05-09 02:51:18,412 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2020-05-09 02:51:18,421 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2020-05-09 02:51:18,433 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2020-05-09 02:51:18,441 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2020-05-09 02:51:18,449 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2020-05-09 02:51:18,452 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2020-05-09 02:51:18,460 INFO [org.geoserver] - Loaded layer 'states'
+2020-05-09 02:51:18,466 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2020-05-09 02:51:18,481 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2020-05-09 02:51:18,498 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2020-05-09 02:51:18,509 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2020-05-09 02:51:18,512 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2020-05-09 02:51:18,524 INFO [org.geoserver] - Loaded layer 'mosaic'
+2020-05-09 02:51:18,513 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2020-05-09 02:51:18,534 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2020-05-09 02:51:18,539 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2020-05-09 02:51:18,546 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2020-05-09 02:51:18,547 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2020-05-09 02:51:18,559 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2020-05-09 02:51:18,564 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2020-05-09 02:51:18,566 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2020-05-09 02:51:18,568 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2020-05-09 02:51:18,581 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2020-05-09 02:51:18,590 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2020-05-09 02:51:18,592 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2020-05-09 02:51:18,604 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2020-05-09 02:51:18,610 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2020-05-09 02:51:18,615 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2020-05-09 02:51:18,617 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2020-05-09 02:51:18,632 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2020-05-09 02:51:18,637 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2020-05-09 02:51:18,644 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2020-05-09 02:51:18,645 INFO [org.geoserver] - Loaded layer 'mosaic'
+2020-05-09 02:51:18,673 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2020-05-09 02:51:18,683 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2020-05-09 02:51:18,696 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2020-05-09 02:51:18,699 INFO [org.geoserver] - Loaded layer 'states'
+2020-05-09 02:51:18,701 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2020-05-09 02:51:18,739 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2020-05-09 02:51:18,759 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2020-05-09 02:51:18,766 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2020-05-09 02:51:18,776 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2020-05-09 02:51:18,782 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2020-05-09 02:51:18,783 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2020-05-09 02:51:18,803 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2020-05-09 02:51:18,837 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2020-05-09 02:51:18,846 INFO [org.geoserver] - Loaded layer 'states'
+2020-05-09 02:51:19,810 INFO [org.geoserver] - Loaded data store 'geoteknedb', enabled
+2020-05-09 02:51:19,858 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2020-05-09 02:51:19,861 INFO [org.geoserver] - Loaded data store 'geoteknedb', enabled
+2020-05-09 02:51:19,869 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2020-05-09 02:51:19,879 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2020-05-09 02:51:19,886 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2020-05-09 02:51:19,888 INFO [org.geoserver] - Read catalog in 11.35 s
+2020-05-09 02:51:19,893 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2020-05-09 02:51:19,908 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2020-05-09 02:51:19,917 INFO [org.geoserver] - Read catalog in 11.60 s
+2020-05-09 02:51:20,108 INFO [org.geoserver] - Loaded data store 'geoteknedb', enabled
+2020-05-09 02:51:20,155 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2020-05-09 02:51:20,164 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2020-05-09 02:51:20,176 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2020-05-09 02:51:20,184 INFO [org.geoserver] - Read catalog in 11.92 s
+2020-05-09 02:51:20,256 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl--47da4d47:171f758213e:-8000', enabled
+2020-05-09 02:51:20,257 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-6bacbe4c:171f7582140:-8000', enabled
+2020-05-09 02:51:20,299 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2020-05-09 02:51:20,307 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2020-05-09 02:51:20,352 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2020-05-09 02:51:20,354 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2020-05-09 02:51:20,404 INFO [org.geoserver] - Loaded service 'wms', enabled
+2020-05-09 02:51:20,407 INFO [org.geoserver] - Loaded service 'wms', enabled
+2020-05-09 02:51:20,460 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:20,489 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:20,605 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl--4b987b4a:171f7582298:-8000', enabled
+2020-05-09 02:51:20,639 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2020-05-09 02:51:20,699 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2020-05-09 02:51:20,744 INFO [org.geoserver] - Loaded service 'wms', enabled
+2020-05-09 02:51:20,776 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:20,777 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:20,778 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:20,822 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:20,855 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:20,860 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:20,861 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:21,146 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-09 02:51:21,147 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+2020-05-09 02:51:21,147 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2020-05-09 02:51:21,148 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-09 02:51:21,154 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-09 02:51:21,158 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+2020-05-09 02:51:21,159 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2020-05-09 02:51:21,159 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-09 02:51:21,174 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:21,174 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:21,175 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-09 02:51:21,476 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2020-05-09 02:51:21,485 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2020-05-09 02:51:21,512 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-09 02:51:21,512 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+2020-05-09 02:51:21,512 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2020-05-09 02:51:21,512 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-09 02:51:21,526 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2020-05-09 02:51:21,532 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2020-05-09 02:51:21,653 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2020-05-09 02:51:21,659 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2020-05-09 02:51:21,660 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2020-05-09 02:51:21,669 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2020-05-09 02:51:21,672 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2020-05-09 02:51:21,680 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2020-05-09 02:51:21,690 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2020-05-09 02:51:21,690 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2020-05-09 02:51:21,805 INFO [gwc.layer] - Loaded 22 tile layers in 143.5 ms
+2020-05-09 02:51:21,822 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2020-05-09 02:51:21,864 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-09 02:51:21,864 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /var/local/geoserver, using it as the default prefix. ***
+2020-05-09 02:51:21,864 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-09 02:51:21,910 INFO [gwc.layer] - Loaded 22 tile layers in 219.1 ms
+2020-05-09 02:51:21,911 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2020-05-09 02:51:21,912 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2020-05-09 02:51:21,913 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2020-05-09 02:51:21,981 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2020-05-09 02:51:22,011 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-09 02:51:22,018 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /var/local/geoserver, using it as the default prefix. ***
+2020-05-09 02:51:22,018 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-09 02:51:22,122 INFO [gwc.layer] - Loaded 22 tile layers in 206.6 ms
+2020-05-09 02:51:22,187 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2020-05-09 02:51:22,205 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2020-05-09 02:51:22,246 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-09 02:51:22,250 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /var/local/geoserver, using it as the default prefix. ***
+2020-05-09 02:51:22,251 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-09 02:51:22,384 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2020-05-09 02:51:22,389 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2020-05-09 02:51:22,613 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:22,644 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:22,654 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-09 02:51:22,670 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:22,677 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-09 02:51:22,681 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2020-05-09 02:51:22,681 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2020-05-09 02:51:22,707 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:22,710 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
+2020-05-09 02:51:22,711 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:22,717 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-09 02:51:22,726 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-09 02:51:22,736 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-09 02:51:22,751 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-09 02:51:22,754 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2020-05-09 02:51:22,756 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2020-05-09 02:51:22,758 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-09 02:51:22,774 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
+2020-05-09 02:51:22,778 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2020-05-09 02:51:22,780 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2020-05-09 02:51:22,814 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
+2020-05-09 02:51:22,882 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2020-05-09 02:51:22,901 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2020-05-09 02:51:22,977 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2020-05-09 02:51:23,571 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2020-05-09 02:51:23,613 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2020-05-09 02:51:23,649 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2020-05-09 02:51:23,683 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2020-05-09 02:51:23,718 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2020-05-09 02:51:23,727 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2020-05-09 02:51:23,777 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2020-05-09 02:51:23,853 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2020-05-09 02:51:23,968 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2020-05-09 02:51:24,074 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2020-05-09 02:51:24,075 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2020-05-09 02:51:24,079 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2020-05-09 02:51:24,086 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2020-05-09 02:51:24,265 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2020-05-09 02:51:24,265 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2020-05-09 02:51:27,687 INFO [cluster.impl] - Using brokerURI: vm://255c1ad95ddd-c2125c9574af?create=false&waitForStart=5000
+2020-05-09 02:51:27,742 INFO [cluster.impl] - Using brokerURI: vm://95f4102e50ee-88b62215650f?create=false&waitForStart=5000
+2020-05-09 02:51:27,816 INFO [cluster.impl] - Using brokerURI: vm://d8e67464aa24-512fb23ede30?create=false&waitForStart=5000
+2020-05-09 02:51:34,573 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2020-05-09 02:51:34,821 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2020-05-09 02:51:34,946 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2020-05-09 02:51:52,517 INFO [cluster.impl] - Starting the embedded brokerURI
+2020-05-09 02:51:52,534 INFO [cluster.impl] - Starting the embedded brokerURI
+2020-05-09 02:51:53,176 INFO [cluster.impl] - Starting the embedded brokerURI
+2020-05-09 02:51:56,707 INFO [cluster.impl] - Embedded brokerURI is now started
+2020-05-09 02:51:56,708 INFO [cluster.impl] - Started the embedded brokerURI: BrokerService[95f4102e50ee-88b62215650f]
+2020-05-09 02:51:56,710 INFO [cluster.client] - Connecting...
+2020-05-09 02:51:56,711 INFO [cluster.impl] - Using brokerURI: vm://95f4102e50ee-88b62215650f?create=false&waitForStart=5000
+2020-05-09 02:51:56,737 INFO [cluster.impl] - Embedded brokerURI is now started
+2020-05-09 02:51:56,745 INFO [cluster.impl] - Started the embedded brokerURI: BrokerService[d8e67464aa24-512fb23ede30]
+2020-05-09 02:51:56,773 INFO [cluster.client] - Connecting...
+2020-05-09 02:51:56,777 INFO [cluster.impl] - Using brokerURI: vm://d8e67464aa24-512fb23ede30?create=false&waitForStart=5000
+2020-05-09 02:51:56,996 INFO [cluster.impl] - Embedded brokerURI is now started
+2020-05-09 02:51:57,019 INFO [cluster.impl] - Started the embedded brokerURI: BrokerService[255c1ad95ddd-c2125c9574af]
+2020-05-09 02:51:57,025 INFO [cluster.client] - Connecting...
+2020-05-09 02:51:57,029 INFO [cluster.impl] - Using brokerURI: vm://255c1ad95ddd-c2125c9574af?create=false&waitForStart=5000
+2020-05-09 02:51:57,034 INFO [cluster.client] - Registration...
+2020-05-09 02:51:57,036 INFO [cluster.client] - Impossible to register GeoServer with destination, waiting...
+2020-05-09 02:51:57,038 INFO [cluster.client] - Waiting for registration...(1/3)
+2020-05-09 02:51:57,128 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.4:49878 failed: java.io.EOFException
+2020-05-09 02:51:57,177 INFO [cluster.client] - Registration...
+2020-05-09 02:51:57,178 INFO [cluster.client] - Impossible to register GeoServer with destination, waiting...
+2020-05-09 02:51:57,181 INFO [cluster.client] - Waiting for registration...(1/3)
+2020-05-09 02:51:57,282 INFO [cluster.client] - Registration...
+2020-05-09 02:51:57,384 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.5:43904 failed: java.io.EOFException
+2020-05-09 02:51:57,407 INFO [cluster.client] - Impossible to register GeoServer with destination, waiting...
+2020-05-09 02:51:57,408 INFO [cluster.client] - Waiting for registration...(1/3)
+2020-05-09 02:51:57,521 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.3:34752 failed: java.io.EOFException
+2020-05-09 02:52:07,039 INFO [cluster.client] - Registration...
+2020-05-09 02:52:07,040 INFO [cluster.client] - Now GeoServer is registered with the destination
+2020-05-09 02:52:07,181 INFO [cluster.client] - Registration...
+2020-05-09 02:52:07,182 INFO [cluster.client] - Now GeoServer is registered with the destination
+2020-05-09 02:52:07,412 INFO [cluster.client] - Registration...
+2020-05-09 02:52:07,414 INFO [cluster.client] - Now GeoServer is registered with the destination
+2020-05-09 02:52:08,142 INFO [geoserver.security] - Start reloading user/groups for service named default
+2020-05-09 02:52:08,160 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2020-05-09 02:52:08,181 INFO [geoserver.security] - Start reloading user/groups for service named default
+2020-05-09 02:52:08,190 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2020-05-09 02:52:08,310 INFO [geoserver.security] - Start reloading user/groups for service named default
+2020-05-09 02:52:08,329 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2020-05-09 02:52:08,711 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2020-05-09 02:52:08,722 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2020-05-09 02:52:08,747 INFO [geoserver.importer] - Enabling import store: memory
+2020-05-09 02:52:08,753 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-09 02:52:08,755 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-09 02:52:08,777 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2020-05-09 02:52:08,784 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2020-05-09 02:52:08,834 INFO [geoserver.importer] - Enabling import store: memory
+2020-05-09 02:52:08,834 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-09 02:52:08,834 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-09 02:52:08,837 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2020-05-09 02:52:08,838 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2020-05-09 02:52:08,870 INFO [geoserver.importer] - Enabling import store: memory
+2020-05-09 02:52:08,872 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-09 02:52:08,873 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-09 02:52:38,300 INFO [geoserver.security] - Strong cryptography is available
+2020-05-09 02:54:27,951 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.4:45932 failed: java.io.EOFException
+2020-05-09 02:54:27,958 WARN [TransportConnection.Transport] - Transport Connection to: vm://d8e67464aa24-512fb23ede30#6 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://d8e67464aa24-512fb23ede30#6) stopped.
+2020-05-09 02:54:27,960 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.3:48962 failed: java.io.EOFException
+2020-05-09 02:54:27,962 WARN [TransportConnection.Transport] - Transport Connection to: vm://95f4102e50ee-88b62215650f#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://95f4102e50ee-88b62215650f#2) stopped.
+2020-05-09 02:54:27,971 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.3:35674 failed: java.io.EOFException
+2020-05-09 02:54:27,977 WARN [TransportConnection.Transport] - Transport Connection to: vm://95f4102e50ee-88b62215650f#4 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://95f4102e50ee-88b62215650f#4) stopped.
+2020-05-09 02:54:27,985 WARN [TransportConnection.Transport] - Transport Connection to: vm://255c1ad95ddd-c2125c9574af#4 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://255c1ad95ddd-c2125c9574af#4) stopped.
+2020-05-09 02:54:27,989 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.18.0.5:42534 failed: java.io.EOFException
+2020-05-09 02:54:27,992 WARN [TransportConnection.Transport] - Transport Connection to: vm://d8e67464aa24-512fb23ede30#4 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://d8e67464aa24-512fb23ede30#4) stopped.
+2020-05-09 02:54:28,000 WARN [TransportConnection.Transport] - Transport Connection to: vm://255c1ad95ddd-c2125c9574af#6 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://255c1ad95ddd-c2125c9574af#6) stopped.
+2020-05-09 02:54:28,020 WARN [client.JMSContainer] - Setup of JMS message listener invoker failed for destination 'queue://Consumer.255c1ad95ddd-c2125c9574af.VirtualTopic.geoserver' - trying to recover. Cause: The Session is closed
+2020-05-09 02:54:28,018 WARN [client.JMSContainer] - Setup of JMS message listener invoker failed for destination 'queue://Consumer.d8e67464aa24-512fb23ede30.VirtualTopic.geoserver' - trying to recover. Cause: The Session is closed
+2020-05-09 02:54:28,063 INFO [georss.GeoRSSPoller] - destroy() invoked
+2020-05-09 02:54:28,066 INFO [geowebcache.GeoWebCacheDispatcher] - GeoWebCacheDispatcher.destroy() was invoked, shutting down.
+2020-05-09 02:54:28,069 INFO [diskquota.DiskQuotaMonitor] - Disk quota monitor shutting down...
+2020-05-09 02:54:28,101 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota usage monitor...
+2020-05-09 02:54:28,113 INFO [diskquota.QuotaUpdatesMonitor] - Shutting down quota usage monitor...
+2020-05-09 02:54:28,106 INFO [georss.GeoRSSPoller] - destroy() invoked
+2020-05-09 02:54:28,131 INFO [geowebcache.GeoWebCacheDispatcher] - GeoWebCacheDispatcher.destroy() was invoked, shutting down.
+2020-05-09 02:54:28,146 INFO [diskquota.DiskQuotaMonitor] - Disk quota monitor shutting down...
+2020-05-09 02:54:28,147 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota usage monitor...
+2020-05-09 02:54:28,152 INFO [diskquota.QuotaUpdatesMonitor] - Shutting down quota usage monitor...
+2020-05-09 02:54:28,159 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota statistics gathering monitor...
+2020-05-09 02:54:28,160 INFO [diskquota.QueuedQuotaUpdatesConsumer] - Shutting down quota update background task due to InterruptedException
+2020-05-09 02:54:28,162 INFO [diskquota.QueuedUsageStatsConsumer] - Shutting down quota update background task due to interrupted exception
+2020-05-09 02:54:28,163 INFO [seed.SeederThreadPoolExecutor] - Initiating shut down for running and pending seed tasks...
+2020-05-09 02:54:28,163 INFO [seed.SeederThreadPoolExecutor] - Seeder thread pool executor shut down complete.
+2020-05-09 02:54:28,164 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker
+2020-05-09 02:54:28,177 INFO [diskquota.QueuedQuotaUpdatesConsumer] - Shutting down quota update background task due to InterruptedException
+2020-05-09 02:54:28,178 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota statistics gathering monitor...
+2020-05-09 02:54:28,182 INFO [diskquota.QueuedUsageStatsConsumer] - Shutting down quota update background task due to interrupted exception
+2020-05-09 02:54:28,184 INFO [seed.SeederThreadPoolExecutor] - Initiating shut down for running and pending seed tasks...
+2020-05-09 02:54:28,184 INFO [seed.SeederThreadPoolExecutor] - Seeder thread pool executor shut down complete.
+2020-05-09 02:54:28,186 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker
+2020-05-09 02:54:33,041 ERROR [client.JMSContainer] - Could not refresh JMS Connection for destination 'queue://Consumer.d8e67464aa24-512fb23ede30.VirtualTopic.geoserver' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Error while attempting to retrieve a connection from the pool; nested exception is javax.jms.JMSException: Could not create Transport. Reason: java.io.IOException: Broker named 'd8e67464aa24-512fb23ede30' does not exist.
+2020-05-27 18:19:48,547 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2020-05-27 18:19:48,827 INFO [org.geoserver] - Loading catalog...
+2020-05-27 18:19:49,114 INFO [org.geoserver] - Loaded style 'population'
+2020-05-27 18:19:49,128 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2020-05-27 18:19:49,131 INFO [org.geoserver] - Loaded style 'green'
+2020-05-27 18:19:49,132 INFO [org.geoserver] - Loaded style 'line'
+2020-05-27 18:19:49,133 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2020-05-27 18:19:49,134 INFO [org.geoserver] - Loaded style 'dem'
+2020-05-27 18:19:49,135 INFO [org.geoserver] - Loaded style 'polygon'
+2020-05-27 18:19:49,145 INFO [org.geoserver] - Loaded style 'restricted'
+2020-05-27 18:19:49,149 INFO [org.geoserver] - Loaded style 'poi'
+2020-05-27 18:19:49,150 INFO [org.geoserver] - Loaded style 'pophatch'
+2020-05-27 18:19:49,151 INFO [org.geoserver] - Loaded style 'grass'
+2020-05-27 18:19:49,152 INFO [org.geoserver] - Loaded style 'simple_roads'
+2020-05-27 18:19:49,153 INFO [org.geoserver] - Loaded style 'simple_streams'
+2020-05-27 18:19:49,154 INFO [org.geoserver] - Loaded style 'capitals'
+2020-05-27 18:19:49,156 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2020-05-27 18:19:49,164 INFO [org.geoserver] - Loaded style 'rain'
+2020-05-27 18:19:49,169 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2020-05-27 18:19:49,170 INFO [org.geoserver] - Loaded style 'point'
+2020-05-27 18:19:49,172 INFO [org.geoserver] - Loaded style 'generic'
+2020-05-27 18:19:49,173 INFO [org.geoserver] - Loaded style 'burg'
+2020-05-27 18:19:49,179 INFO [org.geoserver] - Loaded style 'raster'
+2020-05-27 18:19:49,183 INFO [org.geoserver] - Loaded default workspace cite
+2020-05-27 18:19:49,332 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2020-05-27 18:19:49,347 INFO [org.geoserver] - Loaded workspace 'sf'
+2020-05-27 18:19:49,357 INFO [org.geoserver] - Loaded workspace 'nurc'
+2020-05-27 18:19:49,364 INFO [org.geoserver] - Loaded workspace 'topp'
+2020-05-27 18:19:49,376 INFO [org.geoserver] - Loaded workspace 'cite'
+2020-05-27 18:19:49,388 INFO [org.geoserver] - Loaded workspace 'geotekne'
+2020-05-27 18:19:49,403 INFO [org.geoserver] - Loaded workspace 'tiger'
+2020-05-27 18:19:49,417 INFO [org.geoserver] - Loaded workspace 'sde'
+2020-05-27 18:19:51,384 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2020-05-27 18:19:54,227 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2020-05-27 18:19:54,266 INFO [org.geoserver] - Loaded layer 'poi'
+2020-05-27 18:19:54,277 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2020-05-27 18:19:54,283 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2020-05-27 18:19:54,293 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2020-05-27 18:19:54,323 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2020-05-27 18:19:54,328 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2020-05-27 18:19:54,344 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2020-05-27 18:19:54,368 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2020-05-27 18:19:55,238 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2020-05-27 18:19:55,246 INFO [org.geoserver] - Loaded layer 'sfdem'
+2020-05-27 18:19:55,253 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2020-05-27 18:19:55,267 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2020-05-27 18:19:55,270 INFO [org.geoserver] - Loaded layer 'roads'
+2020-05-27 18:19:55,281 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2020-05-27 18:19:55,287 INFO [org.geoserver] - Loaded layer 'restricted'
+2020-05-27 18:19:55,299 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2020-05-27 18:19:55,305 INFO [org.geoserver] - Loaded layer 'bugsites'
+2020-05-27 18:19:55,317 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2020-05-27 18:19:55,319 INFO [org.geoserver] - Loaded layer 'streams'
+2020-05-27 18:19:55,331 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2020-05-27 18:19:55,333 INFO [org.geoserver] - Loaded layer 'archsites'
+2020-05-27 18:19:55,341 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2020-05-27 18:19:55,360 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2020-05-27 18:19:55,363 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2020-05-27 18:19:55,367 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2020-05-27 18:19:55,374 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2020-05-27 18:19:55,376 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2020-05-27 18:19:55,379 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2020-05-27 18:19:55,394 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2020-05-27 18:19:55,398 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2020-05-27 18:19:55,400 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2020-05-27 18:19:55,414 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2020-05-27 18:19:55,416 INFO [org.geoserver] - Loaded layer 'mosaic'
+2020-05-27 18:19:55,431 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2020-05-27 18:19:55,440 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2020-05-27 18:19:55,444 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2020-05-27 18:19:55,458 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2020-05-27 18:19:55,465 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2020-05-27 18:19:55,471 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2020-05-27 18:19:55,473 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2020-05-27 18:19:55,475 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2020-05-27 18:19:55,477 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2020-05-27 18:19:55,483 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2020-05-27 18:19:55,490 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2020-05-27 18:19:55,492 INFO [org.geoserver] - Loaded layer 'states'
+2020-05-27 18:19:55,859 INFO [org.geoserver] - Loaded data store 'geoteknedb', enabled
+2020-05-27 18:19:55,885 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2020-05-27 18:19:55,901 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2020-05-27 18:19:55,908 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2020-05-27 18:19:55,918 INFO [org.geoserver] - Read catalog in 7.085 s
+2020-05-27 18:19:56,332 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl--1f709320:172575cc22a:-8000', enabled
+2020-05-27 18:19:56,370 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2020-05-27 18:19:56,396 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2020-05-27 18:19:56,422 INFO [org.geoserver] - Loaded service 'wms', enabled
+2020-05-27 18:19:56,472 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-27 18:19:56,627 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-27 18:19:56,630 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-27 18:19:56,633 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-05-27 18:19:56,769 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-27 18:19:56,771 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+2020-05-27 18:19:56,773 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2020-05-27 18:19:56,774 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-05-27 18:19:56,868 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2020-05-27 18:19:56,873 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2020-05-27 18:19:56,945 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2020-05-27 18:19:56,953 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2020-05-27 18:19:56,954 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2020-05-27 18:19:57,046 INFO [gwc.layer] - Loaded 22 tile layers in 91.06 ms
+2020-05-27 18:19:57,067 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2020-05-27 18:19:57,081 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-27 18:19:57,083 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /var/local/geoserver, using it as the default prefix. ***
+2020-05-27 18:19:57,083 INFO [storage.DefaultStorageFinder] - ***********************************************************************************************************************
+2020-05-27 18:19:57,209 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2020-05-27 18:19:57,429 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-27 18:19:57,449 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/local/geoserver/gwc'.
+2020-05-27 18:19:57,463 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-27 18:19:57,480 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-05-27 18:19:57,486 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2020-05-27 18:19:57,487 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2020-05-27 18:19:57,503 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
+2020-05-27 18:19:57,588 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2020-05-27 18:19:57,987 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2020-05-27 18:19:58,038 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2020-05-27 18:19:58,050 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2020-05-27 18:19:58,388 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2020-05-27 18:19:58,392 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2020-05-27 18:20:00,312 INFO [cluster.impl] - Using brokerURI: vm://geoserver-58fe7619fef6?create=false&waitForStart=5000
+2020-05-27 18:20:04,369 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2020-05-27 18:20:13,352 INFO [cluster.impl] - Starting the embedded brokerURI
+2020-05-27 18:20:14,665 ERROR [multicast.MulticastDiscoveryAgent] - Failed to advertise our service: default.ActiveMQ-4.alive.%localhost%tcp://geoserver:38717
+java.io.IOException: Operation not permitted
+	at java.base/java.net.PlainDatagramSocketImpl.send0(Native Method)
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.send(AbstractPlainDatagramSocketImpl.java:136)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:791)
+	at org.apache.activemq.transport.discovery.multicast.MulticastDiscoveryAgent.doAdvertizeSelf(MulticastDiscoveryAgent.java:446)
+	at org.apache.activemq.transport.discovery.multicast.MulticastDiscoveryAgent.start(MulticastDiscoveryAgent.java:338)
+	at org.apache.activemq.broker.TransportConnector.start(TransportConnector.java:256)
+	at org.apache.activemq.broker.BrokerService.startTransportConnector(BrokerService.java:2747)
+	at org.apache.activemq.broker.BrokerService.startAllConnectors(BrokerService.java:2640)
+	at org.apache.activemq.broker.BrokerService.doStartBroker(BrokerService.java:771)
+	at org.apache.activemq.broker.BrokerService.startBroker(BrokerService.java:733)
+	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:636)
+	at org.geoserver.cluster.impl.JMSActiveMQFactory.startEmbeddedBroker(JMSActiveMQFactory.java:227)
+	at org.geoserver.cluster.impl.JMSActiveMQFactory.init(JMSActiveMQFactory.java:309)
+	at org.geoserver.cluster.impl.JMSActiveMQFactory.onApplicationEvent(JMSActiveMQFactory.java:350)
+	at org.geoserver.cluster.impl.JMSActiveMQFactory.onApplicationEvent(JMSActiveMQFactory.java:34)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:22)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:119)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:119)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1572)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1512)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1511)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:220)
+	at org.eclipse.jetty.start.Main.start(Main.java:490)
+	at org.eclipse.jetty.start.Main.main(Main.java:77)
+2020-05-27 18:20:14,675 ERROR [multicast.MulticastDiscoveryAgent] - The 'Operation not permitted' error has been know to be caused by improper firewall/network setup.  Please make sure that the OS is properly configured to allow multicast traffic over: 0.0.0.0/0.0.0.0
+2020-05-27 18:20:14,721 INFO [cluster.impl] - Embedded brokerURI is now started
+2020-05-27 18:20:14,722 INFO [cluster.impl] - Started the embedded brokerURI: BrokerService[geoserver-58fe7619fef6]
+2020-05-27 18:20:14,723 INFO [cluster.client] - Connecting...
+2020-05-27 18:20:14,723 INFO [cluster.impl] - Using brokerURI: vm://geoserver-58fe7619fef6?create=false&waitForStart=5000
+2020-05-27 18:20:14,805 INFO [cluster.client] - Registration...
+2020-05-27 18:20:14,806 INFO [cluster.client] - Impossible to register GeoServer with destination, waiting...
+2020-05-27 18:20:14,806 INFO [cluster.client] - Waiting for registration...(1/3)
+2020-05-27 18:20:15,318 WARN [TransportConnection.Transport] - Transport Connection to: tcp://172.20.0.3:56114 failed: java.io.EOFException
+2020-05-27 18:20:24,806 INFO [cluster.client] - Registration...
+2020-05-27 18:20:24,807 INFO [cluster.client] - Now GeoServer is registered with the destination
+2020-05-27 18:20:25,397 INFO [geoserver.security] - Start reloading user/groups for service named default
+2020-05-27 18:20:25,406 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2020-05-27 18:20:25,673 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2020-05-27 18:20:25,674 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2020-05-27 18:20:25,689 INFO [geoserver.importer] - Enabling import store: memory
+2020-05-27 18:20:25,690 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-27 18:20:25,690 INFO [cluster.server] - Activating JMS Catalog event publisher...
+2020-05-27 18:21:24,137 INFO [geoserver.security] - Strong cryptography is available
+2020-05-27 18:22:29,700 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2020-05-27 18:22:30,296 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[589425.9342365642 : 609518.6719560538, 4913959.224611808 : 4928082.949945881]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["NAD27 / UTM zone 13N", 
+  GEOGCS["NAD27", 
+    DATUM["North American Datum 1927", 
+      SPHEROID["Clarke 1866", 6378206.4, 294.9786982138982, AUTHORITY["EPSG","7008"]], 
+      TOWGS84[2.478, 149.752, 197.726, 0.526, -0.498, 0.501, 0.685], 
+      AUTHORITY["EPSG","6267"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4267"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", -105.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9996], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","26713"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 539
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c4a8d910, org.geoserver.wms.MapLayerInfo@3a400675, org.geoserver.wms.MapLayerInfo@c37173d5, org.geoserver.wms.MapLayerInfo@e009a81f, org.geoserver.wms.MapLayerInfo@fb994292, org.geoserver.wms.MapLayerInfo@6f893642]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:26713, FORMAT=application/openlayers, BBOX=589425.9342365642,4913959.224611808,609518.6719560538,4928082.949945881, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=539, LAYERS=spearfish}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:26713
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=dem], StyleImpl[ name=simple_streams], StyleImpl[ name=simple_roads], StyleImpl[ name=restricted], StyleImpl[ name=point], StyleImpl[ name=capitals]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2020-05-27 18:22:30,587 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2020-05-27 18:22:31,942 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[584814.0149117766 : 614132.9759048079, 4910715.999815193 : 4931292.718532958]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["NAD27 / UTM zone 13N", 
+  GEOGCS["NAD27", 
+    DATUM["North American Datum 1927", 
+      SPHEROID["Clarke 1866", 6378206.4, 294.9786982138982, AUTHORITY["EPSG","7008"]], 
+      TOWGS84[2.478, 149.752, 197.726, 0.526, -0.498, 0.501, 0.685], 
+      AUTHORITY["EPSG","6267"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4267"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", -105.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9996], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","26713"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 539
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c4a8d910, org.geoserver.wms.MapLayerInfo@3a400675, org.geoserver.wms.MapLayerInfo@c37173d5, org.geoserver.wms.MapLayerInfo@e009a81f, org.geoserver.wms.MapLayerInfo@fb994292, org.geoserver.wms.MapLayerInfo@6f893642]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/png, REQUEST=GetMap, SRS=EPSG:26713, BBOX=584814.0149117766,4910715.999815193,614132.9759048079,4931292.718532958, VERSION=1.1.1, STYLES=, WIDTH=769, SERVICE=WMS, HEIGHT=539, TRANSPARENT=true, LAYERS=spearfish}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:26713
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=dem], StyleImpl[ name=simple_streams], StyleImpl[ name=simple_roads], StyleImpl[ name=restricted], StyleImpl[ name=point], StyleImpl[ name=capitals]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+2020-05-27 18:22:33,518 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2020-05-27 18:22:34,184 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[594997.3910118953 : 602327.131260153, 4918222.302816826 : 4923366.482496268]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["NAD27 / UTM zone 13N", 
+  GEOGCS["NAD27", 
+    DATUM["North American Datum 1927", 
+      SPHEROID["Clarke 1866", 6378206.4, 294.9786982138982, AUTHORITY["EPSG","7008"]], 
+      TOWGS84[2.478, 149.752, 197.726, 0.526, -0.498, 0.501, 0.685], 
+      AUTHORITY["EPSG","6267"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4267"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", -105.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9996], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","26713"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 540
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c4a8d910, org.geoserver.wms.MapLayerInfo@3a400675, org.geoserver.wms.MapLayerInfo@c37173d5, org.geoserver.wms.MapLayerInfo@e009a81f, org.geoserver.wms.MapLayerInfo@fb994292, org.geoserver.wms.MapLayerInfo@6f893642]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/png, REQUEST=GetMap, SRS=EPSG:26713, BBOX=594997.3910118953,4918222.302816826,602327.131260153,4923366.482496268, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=540, TRANSPARENT=true, LAYERS=spearfish}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:26713
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=dem], StyleImpl[ name=simple_streams], StyleImpl[ name=simple_roads], StyleImpl[ name=restricted], StyleImpl[ name=point], StyleImpl[ name=capitals]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2020-05-27 18:22:35,210 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2020-05-27 18:22:35,466 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[592907.2697692281 : 600237.0100174858, 4920350.599789953 : 4925494.779469395]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["NAD27 / UTM zone 13N", 
+  GEOGCS["NAD27", 
+    DATUM["North American Datum 1927", 
+      SPHEROID["Clarke 1866", 6378206.4, 294.9786982138982, AUTHORITY["EPSG","7008"]], 
+      TOWGS84[2.478, 149.752, 197.726, 0.526, -0.498, 0.501, 0.685], 
+      AUTHORITY["EPSG","6267"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4267"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", -105.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9996], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","26713"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 540
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c4a8d910, org.geoserver.wms.MapLayerInfo@3a400675, org.geoserver.wms.MapLayerInfo@c37173d5, org.geoserver.wms.MapLayerInfo@e009a81f, org.geoserver.wms.MapLayerInfo@fb994292, org.geoserver.wms.MapLayerInfo@6f893642]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/png, REQUEST=GetMap, SRS=EPSG:26713, BBOX=592907.2697692281,4920350.599789953,600237.0100174858,4925494.779469395, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=540, TRANSPARENT=true, LAYERS=spearfish}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:26713
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=dem], StyleImpl[ name=simple_streams], StyleImpl[ name=simple_roads], StyleImpl[ name=restricted], StyleImpl[ name=point], StyleImpl[ name=capitals]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2020-05-27 18:22:48,796 WARN [client.JMSContainer] - Setup of JMS message listener invoker failed for destination 'queue://Consumer.geoserver-58fe7619fef6.VirtualTopic.geoserver' - trying to recover. Cause: The Consumer is closed
+2020-05-27 18:22:53,803 ERROR [client.JMSContainer] - Could not refresh JMS Connection for destination 'queue://Consumer.geoserver-58fe7619fef6.VirtualTopic.geoserver' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Error while attempting to retrieve a connection from the pool; nested exception is javax.jms.JMSException: Could not create Transport. Reason: java.io.IOException: Broker named 'geoserver-58fe7619fef6' does not exist.

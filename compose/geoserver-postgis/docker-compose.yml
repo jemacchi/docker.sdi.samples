@@ -8,6 +8,8 @@ services:
       - ./geoserver.env
     ports:
       - '8080:8080'
+    volumes:
+      - './data/geoserver/data_dir/:/var/local/geoserver'
     depends_on:
       - postgis
     restart: on-failure
