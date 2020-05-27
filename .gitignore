@@ -4,3 +4,4 @@ compose/haproxy-geocluster/data/geoserver/data_dir/logs/geoserver.log
 compose/haproxy-geocluster/data/geoserver/data_dir/cluster
 compose/nginx-cache-geoserver/data/geoserver/data_dir/cluster
 compose/nginx-cache-geoserver/data/geoserver/data_dir/logs/geoserver.log
+compose/ha-cache-nginx-proxy-geocluster/data/geoserver/data_dir/logs/geoserver.log
