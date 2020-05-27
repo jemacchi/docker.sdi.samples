@@ -1,4 +1,4 @@
-FROM openjdk:15-jdk-alpine3.11 as builder
+FROM openjdk:15-jdk-alpine3.11
 LABEL maintainer="jose.macchi@gmail.com"
 
 ENV GDAL_VERSION 2.1.4
