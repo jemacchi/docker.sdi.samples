@@ -1,0 +1,19 @@
+version: '3'
+services:
+  
+  geoserver:
+    image: 'jemacchi/geoserver:2.16.2'
+    hostname: geoserver
+    env_file:
+      - ./geoserver.env
+    ports:
+      - '8080:8080'
+    restart: on-failure
+
+  geoexplorer:
+    image: 'jemacchi/geoexplorer:1.0'
+    hostname: geoexplorer
+    ports:
+      - '80:8080'
+    restart: on-failure
+
