@@ -6,3 +6,4 @@ compose/nginx-cache-geoserver/data/geoserver/data_dir/cluster
 compose/nginx-cache-geoserver/data/geoserver/data_dir/logs/geoserver.log
 compose/ha-cache-nginx-proxy-geocluster/data/geoserver/data_dir/logs/geoserver.log
 docker/geoserver-shell/gs-shell/bin/geoserver-shell.log
+compose/postgis-cluster/pg
