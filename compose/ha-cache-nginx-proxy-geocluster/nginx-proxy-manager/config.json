@@ -1,0 +1,14 @@
+{
+  "database": {
+    "engine": "mysql",
+    "host": "nginx-proxy-manager-db",
+    "name": "npm",
+    "user": "npm",
+    "password": "npm",
+    "port": 3306
+  },
+  "jwt": {
+    "key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAkpHI9WgJhRSvuEC+1MzFASNaaANMImj6C5C/IfC9XzdaFnji\nrtWVa6pr104kQYtZCM3cOqifnyQ0IobqrvhhzEV/HmpLc+LZr1RrI3BAEdh2Gbvv\nCepKPZl9pVafd1Y+0mYFKwxdAZdUD34KX+vzd9l+GvZjz9Dqh4tMuoZMYP+hDShX\n/cnsrdTSikIYs9+pns8Kn1SJ6X8P8deuybqbzexoMADDArVM6SjUcLGV2kqEhAaG\nUrYDn4Jd3GHhb8J6BcCMCuEBpsPczN3FRqhlPRbN6ZI11prOqwg2tFJ1yCJsfs1j\nAz/TVWpNSyjKtU2pnd7jLEIMphO702LRuYjQhwIDAQABAoIBAD/bZkuNJUCm75v+\nEWZTRK2nQnc4oI4JYI9zY+KcqVT3n7dUuaZkhbIf0NZAREmONZ9BWWbxGoJSWqiE\nUXEj5DAEQ0r0EqWNuzvJMtiAylk8DtBNcerG+ct2uSg04ksy9zHhovTLcSYFUWli\nh5CdEzkvN+L1YC0ln1iolyhY5KQJcr3+ryAHE+AZZqJVbqa87JK8R7kNTH3qpxHR\ndQcY8k86EQSpUjjW57QNvxvXmcPZwXMps+7nRGwtUNC4oFVx8w4NZMaHkbRylZtR\nZ4cCvxSYx6u+ccFAWQEPH7oeHHCIi4ZKOoUzIwWEu9Vt3zpq8gj6r4ahggvdvcis\nvIvkZCkCgYEAxyMQq39jSvKEQBkcZ/Rozp4ecOr4jtY2arxzOAcX+GoYXH++R0zT\n4y2vZTBNltqP2ax+SzXtTVf7DVKjprrpmv62pqho00EHk8W5Ee4smUE6PxSxiZbr\ntxTEqrUJZTim/9dT8im0YlTcYzpQlrLysFEiD8zfHACQgsB5HGNb09sCgYEAvGwH\nnXFal3JEnTQLeX/NU+HnFNQiQ11QHSzsjEXwflLoEGXir1WBlPTsTX/BIJAS19eH\n4WCgVhBIpNM2tgVrjANnS0ykxmKc4K0QZPshIAIRL0dMREjGOwQe1XqFhBZ4mYU8\ne/IRtgPPpfXTBiWJGUW84kelEMkXOWktUTyrK8UCgYEArm/I6nFsSPqnXn6go281\nX8iiYcdyc6yxfk4Vn76XAMPvExfTViG2egpK2hi13q8V01eGSduzQ00OXV1GfYa9\nm0gEN3jOWj9co9VPiKVZ6+V3YEqAOkY5tOY8YEy1LjWyE+pLXpWprXkolMNAVMHs\nVQa9D5om1iCodeCkNnnStoECgYBRh9VLtS7j9VfnRgvpCPoJ3+gjxR8GUyxFU5kP\noXvMzYcJAW0zPSaTE9/kMPGaa30b1HFBfpQiaW1llNdJr9K3hQl/NazfAvCq73f2\nmgvdU8en04wWx/6urrvA2AFKBIcuts5TO42aWs/RGiuzry5Bt0FiEGpGdx0LhI1N\nZ5kRmQKBgQCbXq/nc7Uh6Qj6dRnIEMqSBXZLRJnFjwKaO6w5nIGk0awj+GJI2zfG\nWAdmrfd8ZeQeRp/lq3DrwxoZEvgTcQgI+txTnJkll49DrR61ydCzJxfLgCTHzSKq\nUvHfcDIR2a6FiLU1MqJjXBjrBk1uwfah1+3b3t4SrR/Sw0OhbMGzCg==\n-----END RSA PRIVATE KEY-----",
+    "pub": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkpHI9WgJhRSvuEC+1MzF\nASNaaANMImj6C5C/IfC9XzdaFnjirtWVa6pr104kQYtZCM3cOqifnyQ0Iobqrvhh\nzEV/HmpLc+LZr1RrI3BAEdh2GbvvCepKPZl9pVafd1Y+0mYFKwxdAZdUD34KX+vz\nd9l+GvZjz9Dqh4tMuoZMYP+hDShX/cnsrdTSikIYs9+pns8Kn1SJ6X8P8deuybqb\nzexoMADDArVM6SjUcLGV2kqEhAaGUrYDn4Jd3GHhb8J6BcCMCuEBpsPczN3FRqhl\nPRbN6ZI11prOqwg2tFJ1yCJsfs1jAz/TVWpNSyjKtU2pnd7jLEIMphO702LRuYjQ\nhwIDAQAB\n-----END PUBLIC KEY-----"
+  }
+}

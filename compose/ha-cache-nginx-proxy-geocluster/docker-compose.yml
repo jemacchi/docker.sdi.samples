@@ -2,6 +2,31 @@ version: '3'
 
 services:
   
+  nginx-proxy-manager:
+    image: 'jc21/nginx-proxy-manager:latest'
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    networks:
+      - gis
+    volumes:
+      - ./nginx-proxy-manager/config.json:/app/config/production.json
+      - ./data/nginx-proxy-manager:/data
+      - ./letsencrypt:/etc/letsencrypt
+
+  nginx-proxy-manager-db:
+    image: 'jc21/mariadb-aria:latest'
+    environment:
+      MYSQL_ROOT_PASSWORD: 'npm'
+      MYSQL_DATABASE: 'npm'
+      MYSQL_USER: 'npm'
+      MYSQL_PASSWORD: 'npm'
+    networks:
+      - gis
+    volumes:
+      - ./data/nginx-proxy-manager/mysql:/var/lib/mysql
+
   haproxy-nodes:
     image: dockercloud/haproxy
     container_name: haproxy-nodes
@@ -9,16 +34,16 @@ services:
       - nginx-proxy-nodes
     links:
       - nginx-proxy-nodes
-    ports:
-      - '80:80'
-      - '1936:1936'
+    expose:
+      - '80'
+      - '1936'
     networks:
       - gis
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock'
     environment:
       - 'STATS_AUTH="admin:admin"'
-
+ 
   #Cache L2
   nginx-proxy-nodes:
     image: jemacchi/nginx-proxy-cache:1.0
@@ -81,9 +106,9 @@ services:
       - geoserver-admin
     links:
       - geoserver-admin
-    ports:
-      - '81:80'
-      - '1937:1936'
+    expose:
+      - '80'
+      - '1936'
     networks:
       - gis
     volumes:
@@ -116,8 +141,8 @@ services:
     hostname: postgis
     env_file:
       - ./postgis.env
-    ports:
-      - '5432:5432'
+    expose:
+      - '5432'
     networks:
       - gis
     restart: on-failure
